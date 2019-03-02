@@ -1,0 +1,35 @@
+            WORKSHOP 2
+            ==========
+
+            Welcome back! 
+            
+            Step 1: You'll need to install Box2D for these environments
+	          > pip install box2d-py
+                  
+            Step 2: Go check out the LunarLander environment for OpenAI gym!
+	          : This will get you familiar with the rewards, outputs, etc.
+	          : https://gym.openai.com/envs/LunarLander-v2/
+            
+            Step 3: Download the workshop two file to your workspace
+                  : There is two code sections that you will fill in!
+		  : 
+
+            Step 4: Now, write code to implement backprop for this network.
+		  : We've put a lot of the logic in calc_loss already for you.
+		  : Refer to the previous workshop for an example.
+
+            Step 5: Choose your hyperparameters and write the code for them.
+	          : You'll have to understand what these are, and look up
+		  : some good starting values on the internet. 
+
+            Step 6: Run your code! 
+		  : Your network will likely not solve this challenge in the
+		  : time allowed, as we are starting to get into harder 
+		  : challenges and more complex algorithms. However, you should
+		  : be able to get an average reward of above 100.
+
+            Bonus points:
+               This is not a pure implementatioin of Actor-Critic. Look up
+	       popular derivations of the model, and find one which one this is.
+               
+               Let me know if you finish!

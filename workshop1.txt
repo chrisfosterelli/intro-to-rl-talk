@@ -1,0 +1,46 @@
+            WORKSHOP 1
+            ==========
+
+            Welcome! 
+            
+            Step 1: Use virtualenv to create a private environment
+                  > pip install virtualenv
+		  > virtualenv -p python3 env/
+                  > source env/bin/activate
+                  
+            Step 2: Install PyTorch
+		  : We recommend not using CUDA for now.
+		  : https://pytorch.org/get-started/locally/
+		  : For most situations, the following command will work
+		  > pip install torch torchvision
+            
+            Step 3: Download the workshop one file to your workspace
+                  : There is two code sections that you will fill in!
+		  : https://gist.githubusercontent.com/chrisfosterelli/b8bd29e124e6d1fe2cffdedfac8935ca/raw/393ce23f51c64431508a4337dc9e7195c78cbfa3/workshop1.py
+
+            Step 4: Write code to implement your neural network
+		  : https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html
+		  : We recommend the following configuration:
+		  :   two layer neural network with linear nodes
+		  :   hidden size of 200 nodes
+		  :   relu activation on the first layer
+
+            Step 5: Write code to implement your batch filter function
+		  : You can use generic programming logic to do this
+
+            Step 6: Run your code! 
+		  : Your network should learn to solve the challenge
+		  : A good network can do this in 10-20 batches or so
+
+            Bonus points:
+               The neural network hyperparameters are defined at the top of the
+	       file. Try tweaking these, as well as your neural network architecture.
+	       Monitor how this affects training and performance. 
+	       Can you improve on our default parameters?
+
+            Double bonus points:
+               CEM is often called a "gradient free method". However, we clearly 
+	       take the derivative in each session and update the weights with it.
+	       Is this still fair to call derivative free? If so, why? Research this.
+               
+               Let me know if you finish!
